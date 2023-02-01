@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Vollkorn&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Vollkorn ;
+}
+body
+{
+background: rgb(226, 219, 219);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: lightseagreen;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1) ;
+}
+.container .izquierda
+{
+position: relative;
+background: rgb(51, 51, 153);
+padding: 40px;
+}
+
+.perfil
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255, 255, 255,0.2);
+}
+.imagenperfil
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imagenperfil img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.perfil h2
+{
+color: white;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+ text-align: center;
+ font-weight: 600;
+ line-height: 1.4em;
+
+}
+.perfil h2 span
+{
+ font-size: 0.8em;
+ font-weight: 300;
+
+}
+.contacto
+{
+    padding-top: 40px;
+}
+.titulo
+{
+color: white;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+margin-bottom: 20px;
+
+}
+.contacto ul
+{
+    position: relative;
+
+}
+.contacto ul li
+{
+    position: relative;
+    list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+.container .derecha
+{
+position: relative;
+background: rgb(79, 190, 181);
+padding: 40px;
+}
+.sobremi
+{
+    margin-bottom: 50px;
+
+}
+.titulo2
+{
+    color: rgb(7, 6, 4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+p
+{
+  color: white;
+
+}
+.conocimientos h4
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+font-weight: 300;
+}
+.cosas  
+{
+    color: rgb(7, 6, 4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
